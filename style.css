@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Metropolis:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Metropolis', sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #000000;
+}
+
+.heading{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    width: calc(100% / 3 - 30px);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
